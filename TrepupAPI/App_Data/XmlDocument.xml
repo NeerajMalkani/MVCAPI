@@ -1,0 +1,1219 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TrepupAPI</name>
+    </assembly>
+    <members>
+        <member name="T:Resources.CommonResource">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Resources.CommonResource.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Resources.CommonResource.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Resources.CommonResource.SwissAddress">
+            <summary>
+              Looks up a localized string similar to Trepup Technologies AG, Dorfstrasse 16, 6341 Baar, Switzerland.
+            </summary>
+        </member>
+        <member name="P:Resources.CommonResource.TrepupTrademarks">
+            <summary>
+              Looks up a localized string similar to trepper,treppers,trepup,trepmail,trepboard,trepcard,treplink,trepstore,treptool.
+            </summary>
+        </member>
+        <member name="P:Resources.CommonResource.UserMaxAge">
+            <summary>
+              Looks up a localized string similar to 120.
+            </summary>
+        </member>
+        <member name="P:Resources.CommonResource.UserMinAge">
+            <summary>
+              Looks up a localized string similar to 13.
+            </summary>
+        </member>
+        <member name="T:Resources.SPResource">
+            <summary>
+               A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.ResourceManager">
+            <summary>
+               Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Culture">
+            <summary>
+               Overrides the current thread's CurrentUICulture property for all
+               resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Create_ProductCode">
+            <summary>
+               Looks up a localized string similar to tu_Create_ProductCode.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Create_StoreCode">
+            <summary>
+               Looks up a localized string similar to tu_Create_StoreCode.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Delete_AccountEmail">
+            <summary>
+               Looks up a localized string similar to tu_Delete_AccountEmail.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Delete_InviteEmailDetails">
+            <summary>
+               Looks up a localized string similar to tu_Delete_InviteEmailDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Delete_Review">
+            <summary>
+               Looks up a localized string similar to tu_Delete_Review_V1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Delete_ReviewComment">
+            <summary>
+               Looks up a localized string similar to tu_Delete_ReviewComment.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Delete_ReviewCommentLike">
+            <summary>
+               Looks up a localized string similar to tu_Delete_ReviewCommentLike.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Delete_ReviewCommentMedia">
+            <summary>
+               Looks up a localized string similar to tu_Delete_ReviewCommentMedia.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Delete_ReviewLike">
+            <summary>
+               Looks up a localized string similar to tu_Delete_ReviewLike.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Delete_ReviewReferences">
+            <summary>
+               Looks up a localized string similar to tu_Delete_ReviewReferences.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Delete_SecondaryEmail">
+            <summary>
+               Looks up a localized string similar to tu_Delete_SecondaryEmail.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Delete_ShareEmailDetails">
+            <summary>
+               Looks up a localized string similar to tu_Delete_ShareEmailDetails_V1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Delete_StoreCoverPhoto">
+            <summary>
+               Looks up a localized string similar to tu_Delete_StoreCoverPhoto.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Delete_StoreCoverPhotoMedia">
+            <summary>
+               Looks up a localized string similar to tu_Delete_StoreCoverPhotoMedia_v1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Delete_StorePost">
+            <summary>
+               Looks up a localized string similar to tu_Delete_StorePost_v1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Delete_StorePostComment">
+            <summary>
+               Looks up a localized string similar to tu_Delete_StorePostComment.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Delete_StorePostCommentLike">
+            <summary>
+               Looks up a localized string similar to tu_Delete_StorePostCommentLike.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Delete_StorePostCommentMedia">
+            <summary>
+               Looks up a localized string similar to tu_Delete_StorePostCommentMedia.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Delete_StorePostLike">
+            <summary>
+               Looks up a localized string similar to tu_Delete_StorePostLike.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Delete_StorePostMedia">
+            <summary>
+               Looks up a localized string similar to tu_Delete_StorePostMedia_v1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Delete_StoreProfilePicture">
+            <summary>
+               Looks up a localized string similar to tu_Delete_StoreProfilePicture.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Delete_StoreProfilePictureMedia">
+            <summary>
+               Looks up a localized string similar to tu_Delete_StoreProfilePictureMedia.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Delete_UserAddress">
+            <summary>
+               Looks up a localized string similar to tu_Delete_UserAddress.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Delete_UserProfilePicture">
+            <summary>
+               Looks up a localized string similar to tu_Delete_UserProfilePicture.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Disable_Badge">
+            <summary>
+               Looks up a localized string similar to tu_Disable_Badge.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.FilterProductMedia">
+            <summary>
+               Looks up a localized string similar to tu_FilterProductMedia.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_AccountDeactivationReasons">
+            <summary>
+               Looks up a localized string similar to tu_Get_AccountDeactivationReasons.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_AccountDeletionDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_AccountDeletionDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_Address_Payment">
+            <summary>
+               Looks up a localized string similar to tu_Get_AdressForPayment_v2.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_AllReviews">
+            <summary>
+               Looks up a localized string similar to tu_Get_AllReviews_V3.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_Buckets">
+            <summary>
+               Looks up a localized string similar to tu_Get_Buckets_v3.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_BuyAgainDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_BuyAgainDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_CreateReviewDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_CreateReviewDetails_V3.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_CustomGenderList">
+            <summary>
+               Looks up a localized string similar to tu_Get_CustomGenderList.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_EIN">
+            <summary>
+               Looks up a localized string similar to tu_Get_EIN.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_EmailDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_EmailDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_EmailMapWithAnotherAccount">
+            <summary>
+               Looks up a localized string similar to tu_Get_EmailMapWithAnotherAccount.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_EntityDetailsForReviewGA">
+            <summary>
+               Looks up a localized string similar to tu_Get_EntityDetailsForReviewGA.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_EntityStatusForReviewBySIN">
+            <summary>
+               Looks up a localized string similar to tu_Get_EntityStatusForReviewBySIN_V2.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_InviteGroupWithCount">
+            <summary>
+               Looks up a localized string similar to tu_Get_InviteGroupList.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_InviteSuggestedUserContactList">
+            <summary>
+               Looks up a localized string similar to tu_Get_InviteSuggestedUserContactList_v1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_InviteUserContactList">
+            <summary>
+               Looks up a localized string similar to tu_Get_InviteGroupContacts.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_InvoiceDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_InvoiceDetails_v7.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_NameDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_NameDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_OrderConfirmationDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_OrderConfirmationDetails_v6.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_OrderDetailsForRefund">
+            <summary>
+               Looks up a localized string similar to tu_Get_OrderDetailsForRefund.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_OrderItemsDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_OrderDetailsByOrderID.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_OrderReturnReasonDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_OrderReturnReasonDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_OrderReview">
+            <summary>
+               Looks up a localized string similar to tu_Get_OrderReviewDetails_v8.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_OrderReviewData">
+            <summary>
+               Looks up a localized string similar to tu_Get_OrderDetails_v7.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_OverviewReviews">
+            <summary>
+               Looks up a localized string similar to tu_Get_OverviewReviews_V3.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_PasswordDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_PasswordDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_PersonalInfo">
+            <summary>
+               Looks up a localized string similar to tu_Get_PersonalInfo_V1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_ProductAttributeDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_ProductAttributeDetails_V1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_ProductExists">
+            <summary>
+               Looks up a localized string similar to tu_Get_ProductExists_v4.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_ProductPostForESIndex">
+            <summary>
+               Looks up a localized string similar to tu_Get_ProductPostForESIndex_V3.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_ProfileCompletionPercentage">
+            <summary>
+               Looks up a localized string similar to tu_Get_ProfileCompletionPercentage_v1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_RatingStats">
+            <summary>
+               Looks up a localized string similar to tu_Get_RatingStats_V1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_ReturnDetailsForMail">
+            <summary>
+               Looks up a localized string similar to tu_Get_ReturnDetailsForMail.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_ReturnItemDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_ReturnItemDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_ReviewCommentDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_ReviewCommentDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_ReviewCommentHistoryDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_ReviewCommentHistoryDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_ReviewCommentLike">
+            <summary>
+               Looks up a localized string similar to tu_Get_ReviewCommentLike.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_ReviewCommentReplyDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_ReviewCommentReplyDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_ReviewLike">
+            <summary>
+               Looks up a localized string similar to tu_Get_ReviewLike.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_ReviewLikeCommentShareEntity">
+            <summary>
+               Looks up a localized string similar to tu_Get_ReviewLikeCommentShareEntity.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_SettingsAccountInfo">
+            <summary>
+               Looks up a localized string similar to tu_Get_SettingsAccountInfo.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_ShareFollowersDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_ShareFollowersDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_ShareGroupContacts">
+            <summary>
+               Looks up a localized string similar to tu_Get_ShareGroupContacts_v1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_ShareGroupList">
+            <summary>
+               Looks up a localized string similar to tu_Get_ShareGroupList.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_ShareSuggestedGroupContacts">
+            <summary>
+               Looks up a localized string similar to tu_Get_ShareSuggestedGroupContacts_v1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_ShareTemplateDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_ShareTemplateDetails_v1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_ShareUnsubscribeName">
+            <summary>
+               Looks up a localized string similar to tu_Get_ShareUnsubscribeName.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_SingleReview">
+            <summary>
+               Looks up a localized string similar to tu_Get_SingleReview_V3.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_SocialMediaMaster">
+            <summary>
+               Looks up a localized string similar to tu_Get_SocialMediaMaster.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_SSINCreateDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_SSINCreateDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_StatesByCountryID">
+            <summary>
+               Looks up a localized string similar to tu_Get_StatesByCountryID.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_StoreAbout">
+            <summary>
+               Looks up a localized string similar to tu_Get_StoreAbout.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_StoreAnalyticsMetricDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_StoreAnalyticsMetricDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_StoreCoverPhoto">
+            <summary>
+               Looks up a localized string similar to tu_Get_StoreCoverPhoto.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_StoreCreated">
+            <summary>
+               Looks up a localized string similar to tu_Get_StoreCreated.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_StoreDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_StoreDetails_V2.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_StoreExists">
+            <summary>
+               Looks up a localized string similar to tu_Get_StoreExists.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_StoreNameDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_StoreNameDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_StorePhotoByIDs">
+            <summary>
+               Looks up a localized string similar to tu_Get_StorePhotoByIDs.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_StorePhotoIDs">
+            <summary>
+               Looks up a localized string similar to tu_Get_StorePhotoIDs.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_StorePostCommentDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_StorePostCommentDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_StorePostCommentHistoryDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_StorePostCommentHistoryDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_StorePostCommentLike">
+            <summary>
+               Looks up a localized string similar to tu_Get_StorePostCommentLike.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_StorePostCommentReplyDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_StorePostCommentReplyDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_StorePostDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_StorePostDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_StorePostLike">
+            <summary>
+               Looks up a localized string similar to tu_Get_StorePostLike.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_StorePostLikeCommentShareEntity">
+            <summary>
+               Looks up a localized string similar to tu_Get_StorePostLikeCommentShareEntity.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_StoreProfileDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_StoreProfileDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_StoreQrRedirectDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_StoreQrRedirectDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_StoreSinglePostDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_StoreSinglePostDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_StoreTopDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_StoreTopDetails_v1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_StoreUsernameDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_StoreUsernameDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_SubscriptionPlanDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_SubscriptionPlanDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_SubscriptionStatus">
+            <summary>
+               Looks up a localized string similar to tu_Get_SubscriptionStatus.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_TimeZoneByIANA">
+            <summary>
+               Looks up a localized string similar to tu_Get_TimeZoneByIANA.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_TimezonesByCountry">
+            <summary>
+               Looks up a localized string similar to tu_Get_TrepupTimeZoneByCountry.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_TransactionExists">
+            <summary>
+               Looks up a localized string similar to tu_Get_TransactionExists.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_TrepmailAccount">
+            <summary>
+               Looks up a localized string similar to tm_Get_TrepmailAccount.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_TSINCreateDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_TSINCreateDetails_v2.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_UserAddress">
+            <summary>
+               Looks up a localized string similar to tu_Get_UserAddress.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_UserBirthday">
+            <summary>
+               Looks up a localized string similar to tu_Get_UserBirthday.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_UserCurrencyDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_UserCurrencyDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_UserDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_UserDetails_V1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_UserDetailsByEmail">
+            <summary>
+               Looks up a localized string similar to tu_Get_UserDetailsByEmail_v1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_UserDetailsBySocialID">
+            <summary>
+               Looks up a localized string similar to tu_Get_UserDetailsBySocialID_v5.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_UserEmailCountForVerificationActivities">
+            <summary>
+               Looks up a localized string similar to tu_Get_UserEmailCountForVerificationActivities_V1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_UserEmailDetailsByEmailIDUserID">
+            <summary>
+               Looks up a localized string similar to tu_Get_UserEmailDetailsByEmailIDUserID_V2.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_UserExists">
+            <summary>
+               Looks up a localized string similar to tu_Get_UserExists.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_UserGender">
+            <summary>
+               Looks up a localized string similar to tu_Get_UserGender_V1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_UserHomeCountryDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_UserHomeCountryDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_UserLocation">
+            <summary>
+               Looks up a localized string similar to tu_Get_UserCountry_v1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_UserLogin">
+            <summary>
+               Looks up a localized string similar to tu_Get_UserLogin_v5.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_UsernameDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_UsernameDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_UsernameExists">
+            <summary>
+               Looks up a localized string similar to tu_Get_UsernameExists.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_UserOrderHistory">
+            <summary>
+               Looks up a localized string similar to tu_Get_UserOrderHistory.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_UserPasswordDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_UserPasswordDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_UserPreferrenceDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_UserPreferrenceDetails_v2.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_UserSession">
+            <summary>
+               Looks up a localized string similar to tu_Get_UserSession.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_UserSubscriptionDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_UserSubscriptionDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Get_USINCreateDetails">
+            <summary>
+               Looks up a localized string similar to tu_Get_USINCreateDetails_v4.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_AbuseDetails">
+            <summary>
+               Looks up a localized string similar to tu_Insert_AbuseDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_AccountDeactivationDetails">
+            <summary>
+               Looks up a localized string similar to tu_Insert_AccountDeactivationDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_AccountDeletionDetails">
+            <summary>
+               Looks up a localized string similar to tu_Insert_AccountDeletionDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_AccountEmail">
+            <summary>
+               Looks up a localized string similar to tu_Insert_AccountEmail.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_Badge">
+            <summary>
+               Looks up a localized string similar to tu_Insert_Badge.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_DefaultUsername">
+            <summary>
+               Looks up a localized string similar to tu_Insert_DefaultUsername.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_FreeStoreSubscription">
+            <summary>
+               Looks up a localized string similar to tu_Insert_FreeStoreSubscription.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_InviteEmailDetails">
+            <summary>
+               Looks up a localized string similar to tu_Insert_InviteEmailDetails_v1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_Order">
+            <summary>
+               Looks up a localized string similar to tu_Insert_OrderDetails_v6.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_Payment_Address">
+            <summary>
+               Looks up a localized string similar to tu_Insert_BillingAddress_v2.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_ReturnOrderItemDetails">
+            <summary>
+               Looks up a localized string similar to tu_Insert_ReturnOrderItemDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_ReviewComment">
+            <summary>
+               Looks up a localized string similar to tu_Insert_ReviewComment.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_ShareEmailDetails">
+            <summary>
+               Looks up a localized string similar to tu_Insert_ShareEmailDetails_V7.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_ShareReport">
+            <summary>
+               Looks up a localized string similar to tu_Insert_ShareReport.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_ShareSubscribe">
+            <summary>
+               Looks up a localized string similar to tu_Insert_ShareSubscribe.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_ShareUnsubscribe">
+            <summary>
+               Looks up a localized string similar to tu_Insert_ShareUnsubscribe.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_SocialInviteStore">
+            <summary>
+               Looks up a localized string similar to tu_Insert_SocialInviteStore_v1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_Store">
+            <summary>
+               Looks up a localized string similar to tu_Insert_Store_V1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_StoreActivityLog">
+            <summary>
+               Looks up a localized string similar to tu_Insert_StoreActivityLog.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_StoreCoverPhoto">
+            <summary>
+               Looks up a localized string similar to tu_Insert_StoreCoverPhoto.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_StoreFollower">
+            <summary>
+               Looks up a localized string similar to tu_Insert_StoreFollower.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_StorePostComment">
+            <summary>
+               Looks up a localized string similar to tu_Insert_StorePostComment.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_StorePostDetails">
+            <summary>
+               Looks up a localized string similar to tu_Insert_StorePostDetails_v1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_SystemMail">
+            <summary>
+               Looks up a localized string similar to tu_Insert_SystemMail.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_TrepmailAccount">
+            <summary>
+               Looks up a localized string similar to tm_Insert_TrepmailAccount_v1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_UserActivityLog">
+            <summary>
+               Looks up a localized string similar to tu_Insert_UserActivityLog.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_UserLoginLog">
+            <summary>
+               Looks up a localized string similar to tu_Insert_UserLoginLog.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Insert_UserPreferrences">
+            <summary>
+               Looks up a localized string similar to tu_Insert_UserPreferrences.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.IsRestrictedName">
+            <summary>
+               Looks up a localized string similar to tu_IsRestrictedName_V2.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Manage_ReviewCommentLike">
+            <summary>
+               Looks up a localized string similar to tu_Manage_ReviewCommentLike.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Manage_ReviewLike">
+            <summary>
+               Looks up a localized string similar to tu_Manage_ReviewLike.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Manage_StorePostCommentLike">
+            <summary>
+               Looks up a localized string similar to tu_Manage_StorePostCommentLike.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Manage_StorePostLike">
+            <summary>
+               Looks up a localized string similar to tu_Manage_StorePostLike.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Manage_StorePostMedia">
+            <summary>
+               Looks up a localized string similar to tu_Manage_StorePostMedia.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.StoreNameGeoLocationCheck">
+            <summary>
+               Looks up a localized string similar to tu_StoreNameGeoLocationCheck.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_AccountEmailVerificationCode">
+            <summary>
+               Looks up a localized string similar to tu_Update_AccountEmailVerificationCode.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_AvgRatingAndUserRateCount">
+            <summary>
+               Looks up a localized string similar to tu_Update_AvgRatingAndUserRateCount_V1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_CancelAccountDeletionDetails">
+            <summary>
+               Looks up a localized string similar to tu_Update_CancelAccountDeletionDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_GroupName">
+            <summary>
+               Looks up a localized string similar to tu_Update_ProductGroupName.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_InvitedUserDetails">
+            <summary>
+               Looks up a localized string similar to tu_Update_InviteFollowAndVerify.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_LoginAttemptTracking">
+            <summary>
+               Looks up a localized string similar to tu_Update_LoginAttemptTracking.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_LogOutTimeLog">
+            <summary>
+               Looks up a localized string similar to tu_Update_LogOutTimeLog.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_NameDetails">
+            <summary>
+               Looks up a localized string similar to tu_Update_NameDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_OrderDetailsBeforeTransaction">
+            <summary>
+               Looks up a localized string similar to tu_Update_OrderDetailsBeforeTransaction.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_OrderItemStatus">
+            <summary>
+               Looks up a localized string similar to tu_Update_OrderItemStatus.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_Password">
+            <summary>
+               Looks up a localized string similar to tu_Update_Password.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_PasswordAttemptTracking">
+            <summary>
+               Looks up a localized string similar to tu_Update_PasswordAttemptTracking.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_PreviousNameDetails">
+            <summary>
+               Looks up a localized string similar to tu_Update_PreviousNameDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_ProductRank">
+            <summary>
+               Looks up a localized string similar to tu_Update_ProductRank_V3.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_QRImage">
+            <summary>
+               Looks up a localized string similar to tu_Update_QRImage_v1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_ReactivateUserAccount">
+            <summary>
+               Looks up a localized string similar to tu_Update_ReactivateUserAccount_V4.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_Review">
+            <summary>
+               Looks up a localized string similar to tu_Update_Review_V3.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_ReviewComment">
+            <summary>
+               Looks up a localized string similar to tu_Update_ReviewComment.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_ReviewStarRating">
+            <summary>
+               Looks up a localized string similar to tu_Update_ReviewStarRating_V3.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_SearchIndexedToElastic">
+            <summary>
+               Looks up a localized string similar to tu_Update_SearchIndexedToElastic.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_SSIN">
+            <summary>
+               Looks up a localized string similar to tu_Update_SSIN.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_StoreCategory">
+            <summary>
+               Looks up a localized string similar to tu_Update_StoreCategory.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_StoreCoverPhoto">
+            <summary>
+               Looks up a localized string similar to tu_Update_StoreCoverPhoto.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_StoreDescription">
+            <summary>
+               Looks up a localized string similar to tu_Update_StoreDescription.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_StoreFollower">
+            <summary>
+               Looks up a localized string similar to tu_Update_StoreFollower.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_StoreHeadcount">
+            <summary>
+               Looks up a localized string similar to tu_Update_StoreHeadcount.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_StoreHours">
+            <summary>
+               Looks up a localized string similar to tu_Update_StoreHours.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_StoreLocation">
+            <summary>
+               Looks up a localized string similar to tu_Update_StoreLocationDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_StoreMetrics">
+            <summary>
+               Looks up a localized string similar to tu_Update_StoreMetrics.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_StoreName">
+            <summary>
+               Looks up a localized string similar to tu_Update_StoreName.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_StoreNameToPreviousName">
+            <summary>
+               Looks up a localized string similar to tu_Update_StoreNameToPreviousName.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_StoreOpeningDate">
+            <summary>
+               Looks up a localized string similar to tu_Update_StoreOpeningDate.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_StorePhoneNumber">
+            <summary>
+               Looks up a localized string similar to tu_Update_StorePhoneNumber.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_StorePostComment">
+            <summary>
+               Looks up a localized string similar to tu_Update_StorePostComment.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_StorePostDetails">
+            <summary>
+               Looks up a localized string similar to tu_Update_StorePostDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_StorePostMedia">
+            <summary>
+               Looks up a localized string similar to tu_Update_StorePostMedia.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_StoreProfilePicture">
+            <summary>
+               Looks up a localized string similar to tu_Update_StoreProfilePicture.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_StoreSocialLinks">
+            <summary>
+               Looks up a localized string similar to tu_Update_StoreSocialLinks.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_StoreUsername">
+            <summary>
+               Looks up a localized string similar to tu_Update_StoreUsername.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_StoreWebsite">
+            <summary>
+               Looks up a localized string similar to tu_Update_StoreWebsite_v1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_TransactionDetails">
+            <summary>
+               Looks up a localized string similar to tu_Update_OrderDetails_V4.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_TranscodedVideos">
+            <summary>
+               Looks up a localized string similar to tu_Update_TranscodedVideos_v1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_TrepupAccountEmail">
+            <summary>
+               Looks up a localized string similar to tu_Update_TrepupAccountEmail.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_UserAddressPriority">
+            <summary>
+               Looks up a localized string similar to tu_Update_UserAddressPriority.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_UserBirthday">
+            <summary>
+               Looks up a localized string similar to tu_Update_UserBirthday.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_UserCode">
+            <summary>
+               Looks up a localized string similar to tu_Update_UserCode_v2.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_UserGender">
+            <summary>
+               Looks up a localized string similar to tu_Update_UserGender_V1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_UsernameDetails">
+            <summary>
+               Looks up a localized string similar to tu_Update_UsernameDetails.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_UserProfilePicture">
+            <summary>
+               Looks up a localized string similar to tu_Update_UserProfilePicture.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_UserSessionLogOutTime">
+            <summary>
+               Looks up a localized string similar to tu_Update_UserSessionLogOutTime.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_UserSocialToken">
+            <summary>
+               Looks up a localized string similar to tu_Update_UserSocialToken_V1.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_UserTimezone">
+            <summary>
+               Looks up a localized string similar to tu_Update_UserTimezone.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_USIN">
+            <summary>
+               Looks up a localized string similar to tu_Update_USIN_v2.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Update_VerifyAccountEmail">
+            <summary>
+               Looks up a localized string similar to tu_Update_VerifyAccountEmail.
+            </summary>
+        </member>
+        <member name="P:Resources.SPResource.Validate_IndianPincodeWithState">
+            <summary>
+               Looks up a localized string similar to tu_Validate_IndianPincodeWithState.
+            </summary>
+        </member>
+        <member name="M:TrepupAPI.Helpers.DataTableEntensions.ToListNullableTypes``1(System.Data.DataTable)">
+            <summary>
+                generic function to convert dataset to list for nulable data typa
+            </summary>
+            <typeparam name="TSource"></typeparam>
+            <param name="dataTable"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.GetResonseFromUrlPostRequest(System.String,System.String)">
+            <summary>
+            get resoponse from web request with POST method
+            </summary>
+            <param name="href"></param>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.IsValidContactEmail(System.String)">
+            <summary>
+            to validate email from contacts
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.UrlCompatibleString(System.String)">
+            <summary>
+            replace special character and spaces with hypens for single page post url
+            </summary>
+            <param name="text"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.GstValidation(System.String)">
+            <summary>
+            gstin validation
+            </summary>
+            <param name="inputtxt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.PanValidation(System.String)">
+            <summary>
+            pan number validation
+            </summary>
+            <param name="inputtxt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.TanValidation(System.String)">
+            <summary>
+            pan number validation
+            </summary>
+            <param name="inputtxt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.CheckIsBlockedEmail(System.String)">
+            <summary>
+            Check blocked emails
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.GetBitMapFromURL(System.String,System.Int32,System.Int32)">
+            <summary>
+            Get BitMap Image From URL
+            </summary>
+            <param name="URL"></param>
+            <param name="width"></param>
+            <param name="height"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.GetCurrencySymbolByCurrencyID(System.Int32)">
+            <summary>
+            get currency symbol by currency id
+            </summary>
+            <param name="currencyID"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Common.EntityProfileLinks">
+            <summary>
+            common business and user profile links class
+            </summary>
+        </member>
+    </members>
+</doc>

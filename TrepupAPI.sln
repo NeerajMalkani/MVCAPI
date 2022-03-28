@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrepupAPI", "TrepupAPI\TrepupAPI.csproj", "{6C03BCDD-FE7A-4391-89A6-56F64500860F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C03BCDD-FE7A-4391-89A6-56F64500860F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C03BCDD-FE7A-4391-89A6-56F64500860F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C03BCDD-FE7A-4391-89A6-56F64500860F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C03BCDD-FE7A-4391-89A6-56F64500860F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A11C4F27-BE43-4B8B-A1EF-A000ADFCE2EB}
+	EndGlobalSection
+EndGlobal

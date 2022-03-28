@@ -1,0 +1,787 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Delete_Review" xml:space="preserve">
+    <value>tu_Delete_Review_V1</value>
+    <comment>Deletes Product/Store review</comment>
+  </data>
+  <data name="Delete_StoreProfilePicture" xml:space="preserve">
+    <value>tu_Delete_StoreProfilePicture</value>
+  </data>
+  <data name="Manage_StorePostMedia" xml:space="preserve">
+    <value>tu_Manage_StorePostMedia</value>
+  </data>
+  <data name="Get_AllReviews" xml:space="preserve">
+    <value>tu_Get_AllReviews_V3</value>
+    <comment>Gets Product/Store all reviews for all review page</comment>
+  </data>
+  <data name="Get_CreateReviewDetails" xml:space="preserve">
+    <value>tu_Get_CreateReviewDetails_V3</value>
+    <comment>Get Product/Store review details for Create review page</comment>
+  </data>
+  <data name="Get_EntityDetailsForReviewGA" xml:space="preserve">
+    <value>tu_Get_EntityDetailsForReviewGA</value>
+    <comment>Get Product/Store review details to insert into GA</comment>
+  </data>
+  <data name="Get_EntityStatusForReviewBySIN" xml:space="preserve">
+    <value>tu_Get_EntityStatusForReviewBySIN_V2</value>
+    <comment>Get Product/Store active status for review</comment>
+  </data>
+  <data name="Get_OverviewReviews" xml:space="preserve">
+    <value>tu_Get_OverviewReviews_V3</value>
+    <comment>Gets Product/Store reviews for Overview page</comment>
+  </data>
+  <data name="Get_ProductAttributeDetails" xml:space="preserve">
+    <value>tu_Get_ProductAttributeDetails_V1</value>
+    <comment>Gets Product attribute details to display in reviews</comment>
+  </data>
+  <data name="Get_RatingStats" xml:space="preserve">
+    <value>tu_Get_RatingStats_V1</value>
+    <comment>Gets Rating stats for Rating card display</comment>
+  </data>
+  <data name="Get_StoreAbout" xml:space="preserve">
+    <value>tu_Get_StoreAbout</value>
+  </data>
+  <data name="Get_StoreDetails" xml:space="preserve">
+    <value>tu_Get_StoreDetails_V2</value>
+  </data>
+  <data name="Get_StorePhotoByIDs" xml:space="preserve">
+    <value>tu_Get_StorePhotoByIDs</value>
+  </data>
+  <data name="Get_StorePhotoIDs" xml:space="preserve">
+    <value>tu_Get_StorePhotoIDs</value>
+  </data>
+  <data name="Get_StoreTopDetails" xml:space="preserve">
+    <value>tu_Get_StoreTopDetails_v1</value>
+  </data>
+  <data name="Get_SingleReview" xml:space="preserve">
+    <value>tu_Get_SingleReview_V3</value>
+    <comment>Gets Product/Store single review</comment>
+  </data>
+  <data name="Get_SocialMediaMaster" xml:space="preserve">
+    <value>tu_Get_SocialMediaMaster</value>
+  </data>
+  <data name="Insert_StoreActivityLog" xml:space="preserve">
+    <value>tu_Insert_StoreActivityLog</value>
+  </data>
+  <data name="Insert_StorePostDetails" xml:space="preserve">
+    <value>tu_Insert_StorePostDetails_v1</value>
+  </data>
+  <data name="Update_AvgRatingAndUserRateCount" xml:space="preserve">
+    <value>tu_Update_AvgRatingAndUserRateCount_V1</value>
+    <comment>Update Product/Store avg rating and total user rate count</comment>
+  </data>
+  <data name="Update_Review" xml:space="preserve">
+    <value>tu_Update_Review_V3</value>
+    <comment>Insert/Updates Product/Store review</comment>
+  </data>
+  <data name="Update_ReviewStarRating" xml:space="preserve">
+    <value>tu_Update_ReviewStarRating_V3</value>
+    <comment>Insert/Updates Product/Store review star rating</comment>
+  </data>
+  <data name="Update_StoreCategory" xml:space="preserve">
+    <value>tu_Update_StoreCategory</value>
+  </data>
+  <data name="Update_StoreDescription" xml:space="preserve">
+    <value>tu_Update_StoreDescription</value>
+  </data>
+  <data name="Update_StoreHeadcount" xml:space="preserve">
+    <value>tu_Update_StoreHeadcount</value>
+  </data>
+  <data name="Update_StoreHours" xml:space="preserve">
+    <value>tu_Update_StoreHours</value>
+  </data>
+  <data name="Update_StoreLocation" xml:space="preserve">
+    <value>tu_Update_StoreLocationDetails</value>
+  </data>
+  <data name="Update_StoreOpeningDate" xml:space="preserve">
+    <value>tu_Update_StoreOpeningDate</value>
+  </data>
+  <data name="Update_StorePhoneNumber" xml:space="preserve">
+    <value>tu_Update_StorePhoneNumber</value>
+  </data>
+  <data name="Update_StorePostDetails" xml:space="preserve">
+    <value>tu_Update_StorePostDetails</value>
+  </data>
+  <data name="Update_StorePostMedia" xml:space="preserve">
+    <value>tu_Update_StorePostMedia</value>
+  </data>
+  <data name="Update_StoreProfilePicture" xml:space="preserve">
+    <value>tu_Update_StoreProfilePicture</value>
+  </data>
+  <data name="Update_StoreSocialLinks" xml:space="preserve">
+    <value>tu_Update_StoreSocialLinks</value>
+  </data>
+  <data name="Update_StoreWebsite" xml:space="preserve">
+    <value>tu_Update_StoreWebsite_v1</value>
+  </data>
+  <data name="Get_StoreNameDetails" xml:space="preserve">
+    <value>tu_Get_StoreNameDetails</value>
+    <comment>Gets store name details</comment>
+  </data>
+  <data name="Update_ProductRank" xml:space="preserve">
+    <value>tu_Update_ProductRank_V3</value>
+    <comment>Updates Product rank after product review update</comment>
+  </data>
+  <data name="Get_SSINCreateDetails" xml:space="preserve">
+    <value>tu_Get_SSINCreateDetails</value>
+  </data>
+  <data name="Get_StorePostDetails" xml:space="preserve">
+    <value>tu_Get_StorePostDetails</value>
+  </data>
+  <data name="Get_StorePostLike" xml:space="preserve">
+    <value>tu_Get_StorePostLike</value>
+  </data>
+  <data name="Get_StorePostLikeCommentShareEntity" xml:space="preserve">
+    <value>tu_Get_StorePostLikeCommentShareEntity</value>
+  </data>
+  <data name="Get_StoreQrRedirectDetails" xml:space="preserve">
+    <value>tu_Get_StoreQrRedirectDetails</value>
+  </data>
+  <data name="Get_TimeZoneByIANA" xml:space="preserve">
+    <value>tu_Get_TimeZoneByIANA</value>
+  </data>
+  <data name="Get_USINCreateDetails" xml:space="preserve">
+    <value>tu_Get_USINCreateDetails_v4</value>
+  </data>
+  <data name="Manage_StorePostLike" xml:space="preserve">
+    <value>tu_Manage_StorePostLike</value>
+  </data>
+  <data name="Update_QRImage" xml:space="preserve">
+    <value>tu_Update_QRImage_v1</value>
+  </data>
+  <data name="Update_SSIN" xml:space="preserve">
+    <value>tu_Update_SSIN</value>
+  </data>
+  <data name="Create_StoreCode" xml:space="preserve">
+    <value>tu_Create_StoreCode</value>
+  </data>
+  <data name="Update_UserCode" xml:space="preserve">
+    <value>tu_Update_UserCode_v2</value>
+  </data>
+  <data name="Update_USIN" xml:space="preserve">
+    <value>tu_Update_USIN_v2</value>
+  </data>
+  <data name="Update_StoreNameToPreviousName" xml:space="preserve">
+    <value>tu_Update_StoreNameToPreviousName</value>
+    <comment>Rollback Store name to previous name</comment>
+  </data>
+  <data name="Delete_StorePostLike" xml:space="preserve">
+    <value>tu_Delete_StorePostLike</value>
+  </data>
+  <data name="Get_ProfileCompletionPercentage" xml:space="preserve">
+    <value>tu_Get_ProfileCompletionPercentage_v1</value>
+    <comment>Get percentage of store profile completed</comment>
+  </data>
+  <data name="Get_ReviewCommentLike" xml:space="preserve">
+    <value>tu_Get_ReviewCommentLike</value>
+  </data>
+  <data name="Get_ReviewLike" xml:space="preserve">
+    <value>tu_Get_ReviewLike</value>
+  </data>
+  <data name="Get_StorePostCommentLike" xml:space="preserve">
+    <value>tu_Get_StorePostCommentLike</value>
+  </data>
+  <data name="Insert_StorePostComment" xml:space="preserve">
+    <value>tu_Insert_StorePostComment</value>
+  </data>
+  <data name="Get_StorePostCommentDetails" xml:space="preserve">
+    <value>tu_Get_StorePostCommentDetails</value>
+  </data>
+  <data name="Manage_StorePostCommentLike" xml:space="preserve">
+    <value>tu_Manage_StorePostCommentLike</value>
+  </data>
+  <data name="Delete_StorePostCommentLike" xml:space="preserve">
+    <value>tu_Delete_StorePostCommentLike</value>
+  </data>
+  <data name="Get_StorePostCommentReplyDetails" xml:space="preserve">
+    <value>tu_Get_StorePostCommentReplyDetails</value>
+  </data>
+  <data name="Update_StorePostComment" xml:space="preserve">
+    <value>tu_Update_StorePostComment</value>
+  </data>
+  <data name="Get_StorePostCommentHistoryDetails" xml:space="preserve">
+    <value>tu_Get_StorePostCommentHistoryDetails</value>
+  </data>
+  <data name="Get_UserDetails" xml:space="preserve">
+    <value>tu_Get_UserDetails_V1</value>
+  </data>
+  <data name="IsRestrictedName" xml:space="preserve">
+    <value>tu_IsRestrictedName_V2</value>
+  </data>
+  <data name="Update_StoreName" xml:space="preserve">
+    <value>tu_Update_StoreName</value>
+  </data>
+  <data name="Delete_StorePostComment" xml:space="preserve">
+    <value>tu_Delete_StorePostComment</value>
+  </data>
+  <data name="Delete_ReviewCommentLike" xml:space="preserve">
+    <value>tu_Delete_ReviewCommentLike</value>
+  </data>
+  <data name="Delete_ReviewLike" xml:space="preserve">
+    <value>tu_Delete_ReviewLike</value>
+  </data>
+  <data name="Get_ReviewLikeCommentShareEntity" xml:space="preserve">
+    <value>tu_Get_ReviewLikeCommentShareEntity</value>
+  </data>
+  <data name="Manage_ReviewCommentLike" xml:space="preserve">
+    <value>tu_Manage_ReviewCommentLike</value>
+  </data>
+  <data name="Manage_ReviewLike" xml:space="preserve">
+    <value>tu_Manage_ReviewLike</value>
+  </data>
+  <data name="Delete_ReviewComment" xml:space="preserve">
+    <value>tu_Delete_ReviewComment</value>
+  </data>
+  <data name="Delete_ReviewCommentMedia" xml:space="preserve">
+    <value>tu_Delete_ReviewCommentMedia</value>
+  </data>
+  <data name="Delete_StorePostCommentMedia" xml:space="preserve">
+    <value>tu_Delete_StorePostCommentMedia</value>
+  </data>
+  <data name="Get_ReviewCommentDetails" xml:space="preserve">
+    <value>tu_Get_ReviewCommentDetails</value>
+  </data>
+  <data name="Get_ReviewCommentHistoryDetails" xml:space="preserve">
+    <value>tu_Get_ReviewCommentHistoryDetails</value>
+  </data>
+  <data name="Get_ReviewCommentReplyDetails" xml:space="preserve">
+    <value>tu_Get_ReviewCommentReplyDetails</value>
+  </data>
+  <data name="Insert_ReviewComment" xml:space="preserve">
+    <value>tu_Insert_ReviewComment</value>
+  </data>
+  <data name="Update_ReviewComment" xml:space="preserve">
+    <value>tu_Update_ReviewComment</value>
+  </data>
+  <data name="Get_StoreSinglePostDetails" xml:space="preserve">
+    <value>tu_Get_StoreSinglePostDetails</value>
+  </data>
+  <data name="Get_UsernameExists" xml:space="preserve">
+    <value>tu_Get_UsernameExists</value>
+  </data>
+  <data name="Get_StoreUsernameDetails" xml:space="preserve">
+    <value>tu_Get_StoreUsernameDetails</value>
+  </data>
+  <data name="Update_StoreUsername" xml:space="preserve">
+    <value>tu_Update_StoreUsername</value>
+  </data>
+  <data name="Delete_StorePost" xml:space="preserve">
+    <value>tu_Delete_StorePost_v1</value>
+  </data>
+  <data name="Delete_InviteEmailDetails" xml:space="preserve">
+    <value>tu_Delete_InviteEmailDetails</value>
+  </data>
+  <data name="Get_InviteGroupWithCount" xml:space="preserve">
+    <value>tu_Get_InviteGroupList</value>
+  </data>
+  <data name="Get_InviteSuggestedUserContactList" xml:space="preserve">
+    <value>tu_Get_InviteSuggestedUserContactList_v1</value>
+  </data>
+  <data name="Get_InviteUserContactList" xml:space="preserve">
+    <value>tu_Get_InviteGroupContacts</value>
+  </data>
+  <data name="Insert_InviteEmailDetails" xml:space="preserve">
+    <value>tu_Insert_InviteEmailDetails_v1</value>
+  </data>
+  <data name="Delete_StorePostMedia" xml:space="preserve">
+    <value>tu_Delete_StorePostMedia_v1</value>
+  </data>
+  <data name="Get_UserHomeCountryDetails" xml:space="preserve">
+    <value>tu_Get_UserHomeCountryDetails</value>
+  </data>
+  <data name="Insert_Store" xml:space="preserve">
+    <value>tu_Insert_Store_V1</value>
+  </data>
+  <data name="Update_GroupName" xml:space="preserve">
+    <value>tu_Update_ProductGroupName</value>
+  </data>
+  <data name="Update_InvitedUserDetails" xml:space="preserve">
+    <value>tu_Update_InviteFollowAndVerify</value>
+  </data>
+  <data name="Insert_SocialInviteStore" xml:space="preserve">
+    <value>tu_Insert_SocialInviteStore_v1</value>
+  </data>
+  <data name="Insert_DefaultUsername" xml:space="preserve">
+    <value>tu_Insert_DefaultUsername</value>
+    <comment>To insert default username to store</comment>
+  </data>
+  <data name="Get_StoreCreated" xml:space="preserve">
+    <value>tu_Get_StoreCreated</value>
+    <comment>To check if store is already created by User (temporary until Unlimited stroe introduce)</comment>
+  </data>
+  <data name="Get_TrepmailAccount" xml:space="preserve">
+    <value>tm_Get_TrepmailAccount</value>
+  </data>
+  <data name="Get_UserCurrencyDetails" xml:space="preserve">
+    <value>tu_Get_UserCurrencyDetails</value>
+  </data>
+  <data name="Get_UserDetailsByEmail" xml:space="preserve">
+    <value>tu_Get_UserDetailsByEmail_v1</value>
+  </data>
+  <data name="Get_UserLogin" xml:space="preserve">
+    <value>tu_Get_UserLogin_v5</value>
+  </data>
+  <data name="Insert_TrepmailAccount" xml:space="preserve">
+    <value>tm_Insert_TrepmailAccount_v1</value>
+  </data>
+  <data name="Insert_UserLoginLog" xml:space="preserve">
+    <value>tu_Insert_UserLoginLog</value>
+  </data>
+  <data name="Update_LoginAttemptTracking" xml:space="preserve">
+    <value>tu_Update_LoginAttemptTracking</value>
+  </data>
+  <data name="Update_ReactivateUserAccount" xml:space="preserve">
+    <value>tu_Update_ReactivateUserAccount_V4</value>
+  </data>
+  <data name="Get_StatesByCountryID" xml:space="preserve">
+    <value>tu_Get_StatesByCountryID</value>
+    <comment>Get State id and name list by Country id</comment>
+  </data>
+  <data name="Delete_SecondaryEmail" xml:space="preserve">
+    <value>tu_Delete_SecondaryEmail</value>
+  </data>
+  <data name="Get_UserDetailsBySocialID" xml:space="preserve">
+    <value>tu_Get_UserDetailsBySocialID_v5</value>
+  </data>
+  <data name="Update_UserSocialToken" xml:space="preserve">
+    <value>tu_Update_UserSocialToken_V1</value>
+  </data>
+  <data name="Delete_StoreCoverPhoto" xml:space="preserve">
+    <value>tu_Delete_StoreCoverPhoto</value>
+  </data>
+  <data name="Delete_StoreCoverPhotoMedia" xml:space="preserve">
+    <value>tu_Delete_StoreCoverPhotoMedia_v1</value>
+  </data>
+  <data name="Get_StoreCoverPhoto" xml:space="preserve">
+    <value>tu_Get_StoreCoverPhoto</value>
+  </data>
+  <data name="Insert_StoreCoverPhoto" xml:space="preserve">
+    <value>tu_Insert_StoreCoverPhoto</value>
+  </data>
+  <data name="Update_StoreCoverPhoto" xml:space="preserve">
+    <value>tu_Update_StoreCoverPhoto</value>
+  </data>
+  <data name="Get_ShareGroupList" xml:space="preserve">
+    <value>tu_Get_ShareGroupList</value>
+  </data>
+  <data name="Get_ShareGroupContacts" xml:space="preserve">
+    <value>tu_Get_ShareGroupContacts_v1</value>
+  </data>
+  <data name="Get_ShareSuggestedGroupContacts" xml:space="preserve">
+    <value>tu_Get_ShareSuggestedGroupContacts_v1</value>
+  </data>
+  <data name="Insert_ShareEmailDetails" xml:space="preserve">
+    <value>tu_Insert_ShareEmailDetails_V7</value>
+  </data>
+  <data name="Delete_ShareEmailDetails" xml:space="preserve">
+    <value>tu_Delete_ShareEmailDetails_V1</value>
+  </data>
+  <data name="Get_ShareTemplateDetails" xml:space="preserve">
+    <value>tu_Get_ShareTemplateDetails_v1</value>
+  </data>
+  <data name="Insert_ShareSubscribe" xml:space="preserve">
+    <value>tu_Insert_ShareSubscribe</value>
+  </data>
+  <data name="Insert_ShareUnsubscribe" xml:space="preserve">
+    <value>tu_Insert_ShareUnsubscribe</value>
+  </data>
+  <data name="Get_ShareUnsubscribeName" xml:space="preserve">
+    <value>tu_Get_ShareUnsubscribeName</value>
+  </data>
+  <data name="Insert_ShareReport" xml:space="preserve">
+    <value>tu_Insert_ShareReport</value>
+  </data>
+  <data name="Get_Address_Payment" xml:space="preserve">
+    <value>tu_Get_AdressForPayment_v2</value>
+  </data>
+  <data name="Delete_StoreProfilePictureMedia" xml:space="preserve">
+    <value>tu_Delete_StoreProfilePictureMedia</value>
+  </data>
+  <data name="Get_EIN" xml:space="preserve">
+    <value>tu_Get_EIN</value>
+  </data>
+  <data name="Get_StoreProfileDetails" xml:space="preserve">
+    <value>tu_Get_StoreProfileDetails</value>
+  </data>
+  <data name="Insert_StoreFollower" xml:space="preserve">
+    <value>tu_Insert_StoreFollower</value>
+  </data>
+  <data name="Update_StoreFollower" xml:space="preserve">
+    <value>tu_Update_StoreFollower</value>
+  </data>
+  <data name="Update_SearchIndexedToElastic" xml:space="preserve">
+    <value>tu_Update_SearchIndexedToElastic</value>
+  </data>
+  <data name="Get_ProductPostForESIndex" xml:space="preserve">
+    <value>tu_Get_ProductPostForESIndex_V3</value>
+  </data>
+  <data name="Get_Buckets" xml:space="preserve">
+    <value>tu_Get_Buckets_v3</value>
+  </data>
+  <data name="Validate_IndianPincodeWithState" xml:space="preserve">
+    <value>tu_Validate_IndianPincodeWithState</value>
+  </data>
+  <data name="Delete_ReviewReferences" xml:space="preserve">
+    <value>tu_Delete_ReviewReferences</value>
+  </data>
+  <data name="Create_ProductCode" xml:space="preserve">
+    <value>tu_Create_ProductCode</value>
+  </data>
+  <data name="Get_TSINCreateDetails" xml:space="preserve">
+    <value>tu_Get_TSINCreateDetails_v2</value>
+  </data>
+  <data name="StoreNameGeoLocationCheck" xml:space="preserve">
+    <value>tu_StoreNameGeoLocationCheck</value>
+  </data>
+  <data name="FilterProductMedia" xml:space="preserve">
+    <value>tu_FilterProductMedia</value>
+  </data>
+  <data name="Get_OrderReview" xml:space="preserve">
+    <value>tu_Get_OrderReviewDetails_v8</value>
+  </data>
+  <data name="Get_ProductExists" xml:space="preserve">
+    <value>tu_Get_ProductExists_v4</value>
+  </data>
+  <data name="Get_UserAddress" xml:space="preserve">
+    <value>tu_Get_UserAddress</value>
+  </data>
+  <data name="Get_UserLocation" xml:space="preserve">
+    <value>tu_Get_UserCountry_v1</value>
+  </data>
+  <data name="Insert_Order" xml:space="preserve">
+    <value>tu_Insert_OrderDetails_v6</value>
+  </data>
+  <data name="Insert_Payment_Address" xml:space="preserve">
+    <value>tu_Insert_BillingAddress_v2</value>
+  </data>
+  <data name="Get_PersonalInfo" xml:space="preserve">
+    <value>tu_Get_PersonalInfo_V1</value>
+  </data>
+  <data name="Get_SettingsAccountInfo" xml:space="preserve">
+    <value>tu_Get_SettingsAccountInfo</value>
+  </data>
+  <data name="Get_UserPasswordDetails" xml:space="preserve">
+    <value>tu_Get_UserPasswordDetails</value>
+  </data>
+  <data name="Update_PasswordAttemptTracking" xml:space="preserve">
+    <value>tu_Update_PasswordAttemptTracking</value>
+  </data>
+  <data name="Delete_UserProfilePicture" xml:space="preserve">
+    <value>tu_Delete_UserProfilePicture</value>
+  </data>
+  <data name="Update_UserProfilePicture" xml:space="preserve">
+    <value>tu_Update_UserProfilePicture</value>
+  </data>
+  <data name="Get_NameDetails" xml:space="preserve">
+    <value>tu_Get_NameDetails</value>
+  </data>
+  <data name="Get_TransactionExists" xml:space="preserve">
+    <value>tu_Get_TransactionExists</value>
+  </data>
+  <data name="Get_AccountDeactivationReasons" xml:space="preserve">
+    <value>tu_Get_AccountDeactivationReasons</value>
+  </data>
+  <data name="Insert_AccountDeactivationDetails" xml:space="preserve">
+    <value>tu_Insert_AccountDeactivationDetails</value>
+  </data>
+  <data name="Get_InvoiceDetails" xml:space="preserve">
+    <value>tu_Get_InvoiceDetails_v7</value>
+  </data>
+  <data name="Update_OrderDetailsBeforeTransaction" xml:space="preserve">
+    <value>tu_Update_OrderDetailsBeforeTransaction</value>
+  </data>
+  <data name="Get_UserBirthday" xml:space="preserve">
+    <value>tu_Get_UserBirthday</value>
+  </data>
+  <data name="Insert_AccountDeletionDetails" xml:space="preserve">
+    <value>tu_Insert_AccountDeletionDetails</value>
+  </data>
+  <data name="Update_UserBirthday" xml:space="preserve">
+    <value>tu_Update_UserBirthday</value>
+  </data>
+  <data name="Update_NameDetails" xml:space="preserve">
+    <value>tu_Update_NameDetails</value>
+  </data>
+  <data name="Update_PreviousNameDetails" xml:space="preserve">
+    <value>tu_Update_PreviousNameDetails</value>
+  </data>
+  <data name="Disable_Badge" xml:space="preserve">
+    <value>tu_Disable_Badge</value>
+  </data>
+  <data name="Insert_Badge" xml:space="preserve">
+    <value>tu_Insert_Badge</value>
+  </data>
+  <data name="Get_UserGender" xml:space="preserve">
+    <value>tu_Get_UserGender_V1</value>
+  </data>
+  <data name="Update_UserGender" xml:space="preserve">
+    <value>tu_Update_UserGender_V1</value>
+  </data>
+  <data name="Get_UsernameDetails" xml:space="preserve">
+    <value>tu_Get_UsernameDetails</value>
+  </data>
+  <data name="Update_StoreMetrics" xml:space="preserve">
+    <value>tu_Update_StoreMetrics</value>
+  </data>
+  <data name="Get_TimezonesByCountry" xml:space="preserve">
+    <value>tu_Get_TrepupTimeZoneByCountry</value>
+  </data>
+  <data name="Update_UserTimezone" xml:space="preserve">
+    <value>tu_Update_UserTimezone</value>
+  </data>
+  <data name="Update_UsernameDetails" xml:space="preserve">
+    <value>tu_Update_UsernameDetails</value>
+  </data>
+  <data name="Get_OrderReviewData" xml:space="preserve">
+    <value>tu_Get_OrderDetails_v7</value>
+  </data>
+  <data name="Update_TransactionDetails" xml:space="preserve">
+    <value>tu_Update_OrderDetails_V4</value>
+  </data>
+  <data name="Get_PasswordDetails" xml:space="preserve">
+    <value>tu_Get_PasswordDetails</value>
+  </data>
+  <data name="Update_Password" xml:space="preserve">
+    <value>tu_Update_Password</value>
+  </data>
+  <data name="Insert_AccountEmail" xml:space="preserve">
+    <value>tu_Insert_AccountEmail</value>
+  </data>
+  <data name="Update_TrepupAccountEmail" xml:space="preserve">
+    <value>tu_Update_TrepupAccountEmail</value>
+  </data>
+  <data name="Delete_AccountEmail" xml:space="preserve">
+    <value>tu_Delete_AccountEmail</value>
+  </data>
+  <data name="Get_UserEmailDetailsByEmailIDUserID" xml:space="preserve">
+    <value>tu_Get_UserEmailDetailsByEmailIDUserID_V2</value>
+  </data>
+  <data name="Update_AccountEmailVerificationCode" xml:space="preserve">
+    <value>tu_Update_AccountEmailVerificationCode</value>
+  </data>
+  <data name="Insert_AbuseDetails" xml:space="preserve">
+    <value>tu_Insert_AbuseDetails</value>
+  </data>
+  <data name="Insert_SystemMail" xml:space="preserve">
+    <value>tu_Insert_SystemMail</value>
+  </data>
+  <data name="Get_UserEmailCountForVerificationActivities" xml:space="preserve">
+    <value>tu_Get_UserEmailCountForVerificationActivities_V1</value>
+  </data>
+  <data name="Get_EmailMapWithAnotherAccount" xml:space="preserve">
+    <value>tu_Get_EmailMapWithAnotherAccount</value>
+  </data>
+  <data name="Update_VerifyAccountEmail" xml:space="preserve">
+    <value>tu_Update_VerifyAccountEmail</value>
+  </data>
+  <data name="Get_SubscriptionPlanDetails" xml:space="preserve">
+    <value>tu_Get_SubscriptionPlanDetails</value>
+  </data>
+  <data name="Get_StoreExists" xml:space="preserve">
+    <value>tu_Get_StoreExists</value>
+  </data>
+  <data name="Get_AccountDeletionDetails" xml:space="preserve">
+    <value>tu_Get_AccountDeletionDetails</value>
+  </data>
+  <data name="Update_CancelAccountDeletionDetails" xml:space="preserve">
+    <value>tu_Update_CancelAccountDeletionDetails</value>
+  </data>
+  <data name="Get_UserSubscriptionDetails" xml:space="preserve">
+    <value>tu_Get_UserSubscriptionDetails</value>
+  </data>
+  <data name="Get_UserExists" xml:space="preserve">
+    <value>tu_Get_UserExists</value>
+  </data>
+  <data name="Update_LogOutTimeLog" xml:space="preserve">
+    <value>tu_Update_LogOutTimeLog</value>
+  </data>
+  <data name="Get_EmailDetails" xml:space="preserve">
+    <value>tu_Get_EmailDetails</value>
+  </data>
+  <data name="Delete_UserAddress" xml:space="preserve">
+    <value>tu_Delete_UserAddress</value>
+  </data>
+  <data name="Insert_UserActivityLog" xml:space="preserve">
+    <value>tu_Insert_UserActivityLog</value>
+  </data>
+  <data name="Update_UserAddressPriority" xml:space="preserve">
+    <value>tu_Update_UserAddressPriority</value>
+  </data>
+  <data name="Get_UserPreferrenceDetails" xml:space="preserve">
+    <value>tu_Get_UserPreferrenceDetails_v2</value>
+  </data>
+  <data name="Insert_UserPreferrences" xml:space="preserve">
+    <value>tu_Insert_UserPreferrences</value>
+  </data>
+  <data name="Get_CustomGenderList" xml:space="preserve">
+    <value>tu_Get_CustomGenderList</value>
+  </data>
+  <data name="Get_UserOrderHistory" xml:space="preserve">
+    <value>tu_Get_UserOrderHistory</value>
+  </data>
+  <data name="Get_OrderItemsDetails" xml:space="preserve">
+    <value>tu_Get_OrderDetailsByOrderID</value>
+  </data>
+  <data name="Get_SubscriptionStatus" xml:space="preserve">
+    <value>tu_Get_SubscriptionStatus</value>
+  </data>
+  <data name="Get_BuyAgainDetails" xml:space="preserve">
+    <value>tu_Get_BuyAgainDetails</value>
+  </data>
+  <data name="Get_OrderReturnReasonDetails" xml:space="preserve">
+    <value>tu_Get_OrderReturnReasonDetails</value>
+  </data>
+  <data name="Insert_ReturnOrderItemDetails" xml:space="preserve">
+    <value>tu_Insert_ReturnOrderItemDetails</value>
+  </data>
+  <data name="Get_OrderDetailsForRefund" xml:space="preserve">
+    <value>tu_Get_OrderDetailsForRefund</value>
+  </data>
+  <data name="Get_ReturnItemDetails" xml:space="preserve">
+    <value>tu_Get_ReturnItemDetails</value>
+  </data>
+  <data name="Get_ReturnDetailsForMail" xml:space="preserve">
+    <value>tu_Get_ReturnDetailsForMail</value>
+  </data>
+  <data name="Update_OrderItemStatus" xml:space="preserve">
+    <value>tu_Update_OrderItemStatus</value>
+  </data>
+  <data name="Get_OrderConfirmationDetails" xml:space="preserve">
+    <value>tu_Get_OrderConfirmationDetails_v6</value>
+  </data>
+  <data name="Get_StoreAnalyticsMetricDetails" xml:space="preserve">
+    <value>tu_Get_StoreAnalyticsMetricDetails</value>
+  </data>
+  <data name="Insert_FreeStoreSubscription" xml:space="preserve">
+    <value>tu_Insert_FreeStoreSubscription</value>
+  </data>
+  <data name="Update_TranscodedVideos" xml:space="preserve">
+    <value>tu_Update_TranscodedVideos_v1</value>
+  </data>
+  <data name="Get_UserSession" xml:space="preserve">
+    <value>tu_Get_UserSession</value>
+  </data>
+  <data name="Get_ShareFollowersDetails" xml:space="preserve">
+    <value>tu_Get_ShareFollowersDetails</value>
+  </data>
+  <data name="Update_UserSessionLogOutTime" xml:space="preserve">
+    <value>tu_Update_UserSessionLogOutTime</value>
+  </data>
+</root>
